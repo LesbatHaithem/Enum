@@ -1,0 +1,19 @@
+# 🔢 Exploring Java Enums
+
+## 📘 Overview
+This project is a simple Java exercise designed to **understand and explore the `enum` class** and its key methods such as `ordinal()`, `compareTo()`, and `values()`.
+
+It demonstrates how enumerations work internally in Java, how to define them, and how to use their built-in methods for comparing and iterating over constant values.
+
+---
+
+## 🧩 Key Concepts
+
+### 🔹 What is an Enum?
+An `enum` (short for *enumeration*) is a special Java type used to define a **fixed set of constants** — for example, days of the week, levels of difficulty, or directions.
+
+Example:
+```java
+enum Niveau {
+    DEBUTANT, INTERMEDIAIRE, AVANCE;
+}
