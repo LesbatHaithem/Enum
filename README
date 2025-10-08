@@ -2,28 +2,61 @@
 # 🟢 Java Enum Exploration — Days & Civilite
 
 ## 📘 Overview
-A simple Java project exploring **enumerations (`enum`)** and their main features.  
-Focuses on creating enums with attributes, constructors, and methods, while practicing **`ordinal()`**, **`compareTo()`**, and understanding the difference between static instances and real enum types.
+This project is a simple Java application created to **explore and practice the fundamentals of Java Enumerations (`enum`)**.  
+It focuses on defining enums with attributes and constructors, understanding **`ordinal()`**, **`compareTo()`**, and comparing enums to static object patterns.
+
+Through this project, I practiced **enum creation, encapsulation, constructors, methods, static constants, and comparison logic**.
 
 ---
 
-## 🧩 Content
-- **Enum `Days`** → represents days of the week with numeric & name fields.  
-- **Class `Civilite`** → static instances (`mme`, `mr`, `mlle`) to compare with enum behavior.  
-- **Class `Test`** → demonstrates usage of `ordinal()`, `compareTo()`, getters, and enum iteration.
+## 🧩 Features and Components
+
+### 🔹 Enum: `Days`
+Represents the **days of the week in French**, each with:
+- A numeric value (`NumJouralgerie`)  
+- A name (`nomJour`)  
+
+**Main methods:**
+- `GetnumeJour()` → returns the numeric day value.  
+- `GetnomJour()` → returns the day’s French name.  
+- `ordinal()` → returns the position of the enum constant.  
+- `compareTo()` → compares two enum constants by their order.  
+
+**Concepts:**
+- Enum fields and constructors  
+- Custom methods inside an enum  
+- Enum ordering and comparison  
 
 ---
 
-## ⚙️ Key Concepts
-- Enum fields, constructors, and methods.  
-- Static vs enum-based constants.  
-- `ordinal()` → position of enum constant.  
-- `compareTo()` → compares enum order.  
-- Basics of `EnumSet` & `EnumMap`.
+### 🔹 Class: `Civilite`
+A class demonstrating **static instances** such as `mme`, `mr`, and `mlle`, used to highlight the difference between:
+- Static constant objects  
+- True enumeration types (`enum`)  
+
+**Concepts:**
+- Static object creation  
+- Comparison to enum efficiency and type-safety  
 
 ---
 
-## 🚀 Run
-```bash
-javac Days.java Civilite.java Test.java
-java Test
+### 🔹 Class: `Test`
+Used to test the behavior of the `Days` enum and display data through getter methods.  
+It also demonstrates:
+- Enum attribute access  
+- The use of `ordinal()` and `compareTo()`  
+- Simple output of values from different enum constants  
+
+---
+
+## ⚙️ Enum Methods Overview
+- **`ordinal()`** → returns the position (index) of the enum constant (starting from 0).  
+- **`compareTo()`** → compares enum constants based on declaration order.  
+
+---
+
+## 🚀 How to Run
+
+1. **Compile:**
+   ```bash
+   javac Days.java Civilite.java Test.java
