@@ -19,3 +19,4 @@ private Days(int numJouralgerie, String nomJour) {
 
 
 }
+}
