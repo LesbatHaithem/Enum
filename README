@@ -1,19 +1,29 @@
-# 🔢 Exploring Java Enums
+# Java_Enum
+# 🟢 Java Enum Exploration — Days & Civilite
 
 ## 📘 Overview
-This project is a simple Java exercise designed to **understand and explore the `enum` class** and its key methods such as `ordinal()`, `compareTo()`, and `values()`.
-
-It demonstrates how enumerations work internally in Java, how to define them, and how to use their built-in methods for comparing and iterating over constant values.
+A simple Java project exploring **enumerations (`enum`)** and their main features.  
+Focuses on creating enums with attributes, constructors, and methods, while practicing **`ordinal()`**, **`compareTo()`**, and understanding the difference between static instances and real enum types.
 
 ---
 
-## 🧩 Key Concepts
+## 🧩 Content
+- **Enum `Days`** → represents days of the week with numeric & name fields.  
+- **Class `Civilite`** → static instances (`mme`, `mr`, `mlle`) to compare with enum behavior.  
+- **Class `Test`** → demonstrates usage of `ordinal()`, `compareTo()`, getters, and enum iteration.
 
-### 🔹 What is an Enum?
-An `enum` (short for *enumeration*) is a special Java type used to define a **fixed set of constants** — for example, days of the week, levels of difficulty, or directions.
+---
 
-Example:
-```java
-enum Niveau {
-    DEBUTANT, INTERMEDIAIRE, AVANCE;
-}
+## ⚙️ Key Concepts
+- Enum fields, constructors, and methods.  
+- Static vs enum-based constants.  
+- `ordinal()` → position of enum constant.  
+- `compareTo()` → compares enum order.  
+- Basics of `EnumSet` & `EnumMap`.
+
+---
+
+## 🚀 Run
+```bash
+javac Days.java Civilite.java Test.java
+java Test
