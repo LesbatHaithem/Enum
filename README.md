@@ -1,5 +1,5 @@
 # Java_Enum
-# 🟢 Java Enum Exploration — Days & Civilite
+## 🟢 Java Enum Exploration — Days & Civilite
 
 ## 📘 Overview
 This project is a simple Java application created to **explore and practice the fundamentals of Java Enumerations (`enum`)**.  
